@@ -22,6 +22,15 @@ body {
   height: 100vh;
   background-color: var(--dark-cyan);
   overflow: hidden;
+  background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat;
+  background-position: top -70vh right 76vw, top 80vh left 69vw;
+}
+
+@media (max-width: 414px) {
+  body {
+    background-position: bottom 40vh right 30vw, top 50vh left 25vw;
+  }
 }
 
 .fundo-topo {
