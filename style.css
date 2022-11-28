@@ -25,15 +25,16 @@ body {
 }
 
 .fundo-topo {
-  position: absolute;
-  bottom: 40%;
-  right: 62%;
+  position: relative;
+  bottom: 7%;
+  right: 66%;
 }
 
 .fundo-baixo {
-  position: absolute;
-  top: 30%;
+  position: relative;
+  bottom: 3%;
   left: 62%;
+  z-index: -1;
 }
 
 .principal {
